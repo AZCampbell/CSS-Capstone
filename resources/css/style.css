@@ -1,0 +1,91 @@
+html {
+  font-family: 'kanit', sans-serif;
+}
+header
+{
+    display: grid;
+
+    height: 65px;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.logo
+{
+    display: flex;
+
+    padding-left: 24px;
+
+    grid-column: 1 / span 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo a
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(78, 78, 78)
+}
+.logo img {
+  height: 32px;
+  width: auto;
+}
+.logo span {
+  font-family: 'kanit', sans-serif;
+  font-weight: 600;
+  color: rgb(184, 184, 184)
+}
+.topnav-desktop
+{
+    display: flex;
+
+    grid-row: 1;
+    grid-column: 3 / span 2;
+    justify-content: flex-end;
+    align-items: center;
+}
+.topnav-desktop ul
+{
+    display: flex;
+
+    padding-right: 24px;
+}
+.topnav-desktop ul li
+{
+    padding-left: 16px;
+}
+#banner {
+  display: grid;
+  background-color: rgb(216, 216, 216);
+  grid-template-columns: 60%  40%;
+  padding: 32px 24px;
+  grid-gap: 24px;
+}
+.photo img {
+grid-column: 1;
+width:100%;
+}
+.learn {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  padding-right: 20%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.learn h2 {
+  font-size: 72px;
+  margin-bottom: 14px;
+}
+.learn h3 {
+  font-size: 36px;
+  margin-bottom: : 14px
+}
+.learn button {
+  background-color: rgb(74, 74, 74);
+  padding: 8px 8px;
+  width: 80%;
+  font-size: 48px;
+  border: none;
+  color: white;
+}
