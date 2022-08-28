@@ -89,3 +89,116 @@ width:100%;
   border: none;
   color: white;
 }
+#orientation {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 60% 40%;
+  padding: 32px 24px;
+  grid-gap: 24px;
+}
+.orientation-left img {
+  grid-column: 1;
+  width:100%;
+}
+.orientation-left h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.orientation-left h3 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-bottom: 24px;
+  padding-right: 64px;
+}
+.author {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 32px;
+}
+.orientation-right {
+  grid-column: 2;
+  width: 100%;
+  justify-content: space-between;
+}
+.entry img {
+  height: auto;
+
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+.entry {
+  display: flex;
+  flex-flow: row;
+  height: auto;
+  padding-bottom: 16px;
+
+}
+.sidetext {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 64px;
+}
+.sidetext h2 {
+  font-size:48px;
+  margin:.75rem;
+}
+.sidetext h3 {
+  font-size:24px;
+  margin:.75rem;
+}
+.readmore {
+  color: blue;
+}
+.author {
+  padding: 32px 0;
+  font-size: 18px;
+}
+.lecture {
+  background-color: rgb(216, 216, 216);
+}
+
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(216, 216, 216);
+
+}
+.article1 {
+  line-height: 0;
+  border-bottom: 5px double rgb(216, 216, 216);
+
+}
+.article2 {
+line-height: 0;
+}
+.article3 {
+line-height: 0;
+background-color: rgb(216, 216, 216);
+
+}
+.article1 .content img {
+  width: 35%;
+  padding:0 24px 16px 16px;
+}
+.article2 .content img {
+  padding: 16px 16px;
+  width:35%;
+}
+.article3 .content img {
+  padding: 16px 16px;
+  width:35%;
+}
+.content {
+  display: flex;
+
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
