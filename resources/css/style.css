@@ -202,3 +202,47 @@ background-color: rgb(216, 216, 216);
   justify-content: center;
 
 }
+#areas-of-study {
+  padding: 32px 72px;
+  background-color: rgb(234, 235, 236);
+}
+#areas-of-study h1 {
+  font-size: 72px;
+  text-align: center;
+}
+.courses {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+background-color: rgb(234, 235, 236);
+  grid-gap: 32px;
+}
+.course-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+
+   width: 1fr%;
+}
+.course-item img{
+  height: auto;
+  padding: 0;
+}
+.course-text {
+  justify-content: flex-start;
+  padding: 0 16px;
+  line-height: 1;
+  background-color: white;
+}
+.course-text h4 {
+  font-size:48px;
+  margin:16px 16px;
+}
+.course-text p {
+  font-size: 30px;
+  margin: 16px;
+
+}
+h1.learning {
+  margin: 0 0 32px 0;
+}
